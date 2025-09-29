@@ -1,0 +1,27 @@
+nav{
+    background-color: #c9c7c7;
+    color: black;
+    height: 50px;
+    align-items: center; 
+}
+nav ul {
+    list-style: none;     /* quita las viñetas */
+    margin: 0;            /* quita sangrías */
+    padding: 0;
+    display: flex;        /* los pone en línea */
+    gap: 20px;            /* espacio entre los items */
+}
+nav ul li a {
+    float: left;
+    display: flex;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+} 
+nav ul li a:hover {
+    color: rgb(72, 4, 231);         /* cambia de color al pasar el mouse */
+}
+
+body{color: white;
+    background-color: rgb(92, 9, 3);
+}
