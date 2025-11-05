@@ -27,7 +27,7 @@ body{color: white;
 }
 .hero {
   height: 70vh;
-  background-image: url(/assets/Fondo.png);
+  background-image: url('../assets/Fondo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
