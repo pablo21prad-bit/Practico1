@@ -25,3 +25,11 @@ nav ul li a:hover {
 body{color: white;
     background-color: rgb(92, 9, 3);
 }
+.hero {
+  height: 70vh;
+  background-image: url(/assets/Fondo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
