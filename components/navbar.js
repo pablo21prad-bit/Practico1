@@ -3,7 +3,7 @@ const navElements = [
     { title: 'Home',    link: '/pages/home/home.html' },
     { title: 'autos',  link: '/pages/autos/autos.html' },
     { title: 'lanchas', link: '/pages/lanchas/lanchas.html' },
-    {title: 'motos', link: './pages/motos/motos.html' },
+    {title: 'motos', link: '/pages/motos/motos.html' },
 ] 
 
 
