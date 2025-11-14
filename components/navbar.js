@@ -1,5 +1,5 @@
 const navElements = [
-    {title: 'index', link: './index.html'},
+    {title: 'index', link: '/index.html'},
     { title: 'Home',    link: '/pages/home/home.html' },
     { title: 'autos',  link: '/pages/autos/autos.html' },
     { title: 'lanchas', link: '/pages/lanchas/lanchas.html' },
