@@ -8,14 +8,16 @@ const navElements = [
 
 
 export const navbar =  `
-    <nav class="navbar navbar-expand-lg bg-dark  navbar-dark">
-        <div class="container-fluid">
-            <a href="home.html" class="navbar-brand">CarMotors</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarcollapse">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     ${navElements.map( element =>{
                         return `
@@ -24,8 +26,9 @@ export const navbar =  `
                         </li>
                         `
                     }).join('')}
+
+                   
                 </ul>
             </div>
-
-        </div>
-    </nav>`
+            </div>
+        </nav>`
