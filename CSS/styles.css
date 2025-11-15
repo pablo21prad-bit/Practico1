@@ -19,7 +19,7 @@ nav ul li a {
     font-weight: bold;
 } 
 nav ul li a:hover {
-    color: rgb(72, 4, 231);         /* cambia de color al pasar el mouse */
+    color: rgb(72, 4, 231);         
 }
 
 body{color: white;
