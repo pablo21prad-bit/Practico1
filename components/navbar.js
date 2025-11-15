@@ -10,7 +10,7 @@ const navElements = [
 export const navbar =  `
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">CarMotors</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarNav" aria-controls="navbarNav" 
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,20 @@ export const navbar =  `
 
                    
                 </ul>
+
+                <div class="d-flex flex-column align-items-end gap-2">
+
+                    <a href="/pages/login/login.html" class="btn btn-primary">
+                        Login
+                    </a>
+
+                    <a href="/pages/login/login.html" class="btn btn-danger">
+                          Cerrar sesión
+                     </a>
+
+                </div>
+                
+
             </div>
             </div>
         </nav>`
