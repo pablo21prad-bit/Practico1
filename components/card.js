@@ -6,13 +6,12 @@ export const cardComponent = (producto) => {
         
         <img src="${producto.img}" alt="${producto.nombre}">
 
-        <!-- Footer-->
         <div class="card-footer">
 
-          <!-- Nombre -->
+          
           <h5 class="card-title mt-2">${producto.nombre}</h5>
 
-          <!-- Descripción -->
+          
           <p class="card-text">${producto.descripcion}</p>
 
           <!-- Precio + Cantidad + Agregar al carrito -->
