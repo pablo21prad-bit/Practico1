@@ -1,9 +1,9 @@
-nav{
+/*nav{
     background-color: #c9c7c7;
     color: black;
     height: 50px;
     align-items: center; 
-}
+}*/
 nav ul {
     list-style: none;     /* quita las viñetas */
     margin: 0;            /* quita sangrías */
@@ -31,5 +31,6 @@ body{color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
