@@ -21,7 +21,7 @@ fetch("../../data/productos.json")
       .join("");
   });
 
-// 2) Manejar clicks dentro del contenedor (delegación)
+// 2) Manejar clicks dentro del contenedor 
 contenedorAutos.addEventListener("click", (e) => {
   const btn = e.target;
 
