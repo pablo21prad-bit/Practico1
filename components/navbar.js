@@ -28,6 +28,10 @@ export const navbar =  `
                 }).join('')}
             </ul>
 
+            <a href="/pages/carrito/carrito.html" class="btn btn-outline-light me-3">
+                <i class="bi bi-cart3 fs-5"></i>
+            </a>
+
             <div class="ms-auto d-flex flex-column align-items-end gap-2">
                 <a href="/pages/login/login.html" class="btn btn-primary">
                     Login

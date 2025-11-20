@@ -1,11 +1,11 @@
-{
-  "usuarios": [
+[
+  
     {
       "id": 1,
       "nombre": "Pablo",
       "apellido": "Prado",
       "email": "pablo21prad@gmail.com",
-      "contrasenia": "123456",
+      "pass": "123456",
       "fechaNacimiento": "1992-06-15"
     },
     {
@@ -13,7 +13,7 @@
       "nombre": "María",
       "apellido": "Gómez",
       "email": "maria.gomez@example.com",
-      "contrasenia": "mar123",
+      "pass": "mar123",
       "fechaNacimiento": "1998-11-02"
     },
     {
@@ -21,8 +21,8 @@
       "nombre": "Lucas",
       "apellido": "Fernández",
       "email": "lucas.fer@example.com",
-      "contrasenia": "luc456",
+      "pass": "luc456",
       "fechaNacimiento": "2000-03-21"
     }
-  ]
-}
+  
+]
